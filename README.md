@@ -120,15 +120,10 @@ $ gnuplot temperature.plt &
 
 Pour éviter que le terminal gunuplot ne revienne en foreground à chaque reread : menu Configuration , décocher "Put the window at the top...".
 
+Avec un *heat sink*.
 
+![pictures/heat-sink.png](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/heat-sink.png)
 
+Avec un ventilateur.
 
-
-
-
-
-
-
-
-
-
+![pictures/fan.png](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/fan.png)
