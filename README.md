@@ -3,7 +3,7 @@ Installer un système de refroidissement pour un Raspberry Pi 4.
 
 Egalement arrêter/démarrer le ventilateur suivant la température, suivre son évolution...
 
-## Intallation du ventilateur
+## Installation du ventilateur
 
 Voir la vidéo sur https://www.youtube.com/watch?v=mTHAO9P_hxQ.
 
