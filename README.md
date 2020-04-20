@@ -127,3 +127,7 @@ Avec un *heat sink*.
 Avec un ventilateur.
 
 ![pictures/fan.png](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/fan.png)
+
+Avec un ventilateur, suite à un pic d'activité.
+
+![pictures/peak.png](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/peak.png)
