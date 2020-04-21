@@ -88,6 +88,9 @@ done
 
 Voir https://howchoo.com/g/ote2mjkzzta/control-raspberry-pi-fan-temperature-python.
 
+Et https://www.instructables.com/id/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/.
+
+
 ## Moduler la vitesse du ventilateur
 
 En fonction de la température.
