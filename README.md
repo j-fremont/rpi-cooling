@@ -94,6 +94,10 @@ En fonction de la température.
 
 Utiliser une sortie PWM du GPIO.
 
+```bash
+$ pip install RPi.GPIO
+```
+
 ## Suivre l'évolution de la température
 
 Lire la température avec "VideoCore general commands" (https://elinux.org/RPI_vcgencmd_usage).
@@ -129,5 +133,11 @@ Avec un ventilateur.
 ![pictures/fan.png](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/fan.png)
 
 Avec un ventilateur, suite à un pic d'activité.
+
+```bash
+$ sudo apt-get install -y stress
+...
+$ stress --cpu 4
+```
 
 ![pictures/peak.png](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/peak.png)
