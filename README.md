@@ -11,7 +11,7 @@ Voir la vidéo sur https://www.youtube.com/watch?v=mTHAO9P_hxQ.
 
 ![pictures/DSCN7090.JPG](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/DSCN7090.JPG)
 
-## Contrôle des GPIO du Raspberry
+## Installation de WiringPi
 
 Voir http://wiringpi.com/.
 
@@ -84,23 +84,6 @@ while true; do
 done
 ```
 
-## Arrêter/démarrer le ventilateur
-
-Voir https://howchoo.com/g/ote2mjkzzta/control-raspberry-pi-fan-temperature-python.
-
-Et https://www.instructables.com/id/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/.
-
-
-## Moduler la vitesse du ventilateur
-
-En fonction de la température.
-
-Utiliser une sortie PWM du GPIO.
-
-```bash
-$ pip install RPi.GPIO
-```
-
 ## Suivre l'évolution de la température
 
 Lire la température avec "VideoCore general commands" (https://elinux.org/RPI_vcgencmd_usage).
@@ -131,7 +114,7 @@ Avec un *heat sink*.
 
 ![pictures/heat-sink.png](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/heat-sink.png)
 
-Avec un ventilateur.
+Avec un ventilateur à pleine vitesse (5V).
 
 ![pictures/fan.png](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/fan.png)
 
@@ -144,3 +127,18 @@ $ stress --cpu 4
 ```
 
 ![pictures/peak.png](https://github.com/j-fremont/rpi-cooling/blob/master/pictures/peak.png)
+
+
+## Moduler la vitesse du ventilateur
+
+En fonction de la température.
+
+Voir https://howchoo.com/g/ote2mjkzzta/control-raspberry-pi-fan-temperature-python.
+
+Et https://www.instructables.com/id/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/.
+
+Utiliser une sortie PWM du GPIO.
+
+```bash
+$ pip install RPi.GPIO
+```
