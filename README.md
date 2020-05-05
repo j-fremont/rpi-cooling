@@ -137,8 +137,14 @@ Voir https://howchoo.com/g/ote2mjkzzta/control-raspberry-pi-fan-temperature-pyth
 
 Et https://www.instructables.com/id/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/.
 
-Utiliser une sortie PWM du GPIO.
+Utiliser une sortie PWM du GPIO et un transistor (BC337).
 
 ```bash
 $ pip install RPi.GPIO
+```
+
+Lancer à 25% de sa vitesse (testé avec des ventilateurs 5V et 12V).
+
+```bash
+$ python pwm-set.py 200 25
 ```
