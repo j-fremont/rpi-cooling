@@ -148,3 +148,17 @@ Lancer à 25% de sa vitesse (testé avec des ventilateurs 5V et 12V).
 ```bash
 $ python pwm-set.py 200 25
 ```
+
+## Lancer le ventilateur au boot
+
+```bash
+$ crontab -e
+```
+
+Puis écrire.
+```
+@reboot python ~/projets_github/rpi-cooling/pwm-set.py 100 75
+```
+
+
+
