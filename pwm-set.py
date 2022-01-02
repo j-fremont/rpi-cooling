@@ -3,6 +3,8 @@ import RPi.GPIO as GPIO
 import time
 import sys
 
+GPIO.setwarnings(False)
+
 freq=int(sys.argv[1]);
 dc=int(sys.argv[2]);
 
